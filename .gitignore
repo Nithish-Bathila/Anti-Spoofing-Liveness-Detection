@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Training outputs
+runs/
+wandb/
+
+# Datasets (not needed for inference)
+Dataset/
+data/
+*.yaml
+
+# Model weights
+*.pt
+
+# Build / distribution
+dist/
+build/
+*.spec
+
+# Flask cache
+instance/
+*.db
