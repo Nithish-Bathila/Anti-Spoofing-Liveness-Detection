@@ -30,7 +30,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Nithish-Bathila/Anti-Spoofing-Liveness-Detection.git
+git clone https://github.com/pramukakesh/Anti-Spoofing-Liveness-Detection.git
 cd Anti-Spoofing-Liveness-Detection
 ```
 
