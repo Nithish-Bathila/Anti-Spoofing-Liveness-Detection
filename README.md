@@ -50,8 +50,8 @@ pip install -r requirements.txt
 
 ## 📌 Notes
 - The `models/` folder is included but empty in the repo (trained weights not pushed).
-- [Download the trained model from:](https://drive.google.com/file/d/1n7HjLH8E64jAXRiNQSIAHVl-Fllc3bhE/view?usp=sharing)
-- Place the downloaded model in the **models** folder
+- Download trained model from [here](https://drive.google.com/file/d/1n7HjLH8E64jAXRiNQSIAHVl-Fllc3bhE/view?usp=sharing)
+- Place the downloaded model in the `models/` folder
 
 ---
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-- Opens a Flask server at PC IP address. (not the local host)
+- Opens a Flask server at PC IP address. (not the local host) Ex-http://192.xxx.x.1xx:5000
 - Streams live video with detection results.
 
 
@@ -74,7 +74,6 @@ train.py                # YOLOv8 training script
 dataCollector.py        # Webcam dataset collection script
 splitData.py            # Dataset splitting utility
 models/                 # Store trained YOLO models (.pt files)
-Dataset/                # Dataset (images + annotations)
 requirements.txt        # Python dependencies
 README.md               # Project documentation
 ```
